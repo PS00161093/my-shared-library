@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call() {
+def demo() {
 	node{
 		echo "Jenkinsfile found and the branch names is ${env.BRANCH_NAME}"
 	}
